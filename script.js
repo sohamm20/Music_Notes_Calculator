@@ -3,7 +3,7 @@
 var org = "<tr><td>Notes</td><td>Frequency (Hz)</td></tr>";
 
 function clearText(){
-  document.getElementById("output").innerHTML = org;
+  document.getElementById("output").innerHTML = "";
 }
 
 
