@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Notes Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body >
+  <style type="text/css">
+  table { background-color:#eee;border-collapse:collapse;margin-left: auto; margin-right: auto; }
+  table th { background-color:#000;color:white;width:50%; }
+  table td, table th { padding:5px;border:1px solid #000; }
+  </style>
+  <h1>
+    Enter Fundamental Frequency
+  </h1>
+
+  <input type="text" id = "ipText">
+  <br>
+  <input type="submit" id = "clicked" onclick="find()">
+  <input style="background-color: orangered;" type="submit" value = "Clear" id = "clean" onclick="clearText()">
+  <table id = "output">
+  </table>
+  <!-- <div class = "container" id = "op">
+    <b>Enter the value to calculate</b>
+  </div> -->
+<!-- 
+  <h1 id = "ans">H</h1>
+  <script src="script.js"></script>
+  
+  
+  <form onsubmit="show()">
+    <input type="text" id="fname" name="firstname" placeholder="440">
+  </br>
+    <input type="submit" value="Submit" id="calculate">
+  </form> -->
+  <script src="./script.js"></script> 
+</body>
+
+</html>
